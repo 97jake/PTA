@@ -1,2 +1,3 @@
 # PTA
-Webscrapping Project to get data on every school in New Mexico for the local PTA
+My mom was tasked with getting basic information from every school in the state of New Mexico for a PTA project. She started by manually visiting every school's homepage and copying and pasting the information into an excel file. As an up-and-coming data engineer, I wouldn't stand for such monotony. 
+This project uses Selenium and Regular Expressions to automatically visit every school's webpage in New Mexico, identifies desired information, and writes it to a csv file. A big part of the project was finding the best way to find the desired information in each page's HTML as well as making sure the data was in a clean and consistent format.  
